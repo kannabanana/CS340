@@ -1,0 +1,158 @@
+/* SR Kanna--
+This is for CS290-
+Assignment 2--
+*/
+
+#first{
+	background-color:black;
+	text-align:right;
+	padding:10px;
+	margin-top:0px;
+}
+
+#second {
+	background-color:white;
+	padding:20px;
+}
+
+#first a:link, a:visited {
+	color:white;
+	text-decoration: none;
+}
+
+#second a:link{
+	font-weight:bold;
+	color:black;
+	text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+	display: inline;
+}
+
+section{
+    float:right;
+	color: white;
+    width:350px;
+    padding:10px;
+}
+
+h1{
+	font-size: 50px;
+    font-family: "sans-serif";
+    text-align: left;
+	font-weight: bold;
+	color: black;
+}
+
+h2
+{
+	padding:10px;
+	font-size:20px;
+	font-family: "sans-serif";
+    text-align: left;
+	font-weight: bold;
+	color: black;
+}
+
+h3{
+	padding:10px;
+}
+
+img{
+	float: left;
+	width:28%;
+	height:28%;
+	padding:20px;
+}
+
+
+body {
+	margin-bottom:100px;
+	margin-top:0px;
+	margin-left:100px;
+	margin-right:100px;
+	font-family: "Times New Roman", Times, serif;
+	background-image: url("start/images/stucco/stucco.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+p{
+	padding:5px;
+}
+
+#secondp{
+	color:red;
+}
+
+article{
+		background-color:white;
+}
+
+button{
+	color: blue;
+	background-image: url("start/images/stucco/stucco.png");
+	font-weight: bold;
+	padding: 5px;
+	width: 50%;
+}
+
+table{
+	   border-collapse: separate;
+}
+
+
+footer{
+	background-color:black;
+	color: white;
+	text-align:center;
+	padding: 15px;
+	margin:20px;
+	font-size:75%;
+	width: 96%;
+	height: 100%;
+}
+
+
+input#sbutton{
+	background: url("start/images/button_ok.png");
+  	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: skyblue;
+	height:36px;
+	padding:4px 16px;
+	width: 100px;
+}
+
+
+#container{
+	display:inline;
+}
+
+
+#container img{
+		width:20%;
+		height:20%;
+}
+
+#normal{
+	color:blue;
+}
+#normal2{
+	color:blue;
+}
+#normal3{
+	color:blue;
+}
+#normal4{
+	color:blue;
+}

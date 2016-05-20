@@ -1,0 +1,55 @@
+
+<!DOCTYPE HTML>
+
+<html>
+	<!-- This Kanna's 290 website
+		Name: Kanna
+		Date: 10/4/2015
+		Filename: Index.html
+		Comments: This is the starting point of navigation
+	-->
+
+	<head>
+		<!--Title appears at top tab-->
+		<title>RPS PHP </title>
+		<link rel="stylesheet" type="text/css" href="phprockpaperscissors.css">
+			
+	</head>
+	
+	<body>
+		<header>
+		<h1> Rock Paper Scissors PHP Style</h1>
+		
+		</header>
+		
+		<ul>
+			<!--Tool bar for navigation which include about, menu, reviews, locations -->
+			<li> <a href ="login.php" target="_blank">login in &nbsp; &nbsp; &nbsp; &nbsp;</a></li> 
+			<li> <a href ="logout.php" target="_blank">log out &nbsp; &nbsp; &nbsp; &nbsp;</a></li> 
+			<li> <a href="signup.php" target="blank">sign up &nbsp; &nbsp; &nbsp; &nbsp;</a></li>  					
+			<li> <a href="phprockpaperscissors.html" target="blank">Play Game &nbsp; &nbsp; &nbsp; &nbsp;</a></li>
+		</ul>
+		<section>
+	
+		<p>Welcome to a game of Rock-Paper-Scissors</p>
+		<p id ="result">Please click play. Then choose one of the images below (Rock/Paper/Scissor). We will keep track of the score! </p>
+		
+	
+		
+		<div id = container>
+			<img id="compresult" src="http://www.purplefrogsystems.com/blog/wp-content/uploads/2012/10/RockPaperScissorsLizardSpock2.jpg" alt="Rock Paper Scissors" width="100" height="100" />
+		</div>
+		
+		<figure>
+				<img id="myImage" onclick="compute(1)" src="http://dreamatico.com/data_images/diamond/diamond-6.jpg" alt="Rock" width="100" height="100"/>
+				<img id="myImage3" onclick="compute(3)" src="https://s3.amazonaws.com/rapgenius/edward_scissorhands.jpg" alt="Scissors" width="100" height="100" /> 
+				<img id="myImage2" onclick="compute(2)" src="https://image.freepik.com/free-photo/rumpled-paper--paper-ball--garbage--objects_385314.jpg" alt="Paper" width="100" height="100" />
+		</figure>
+		
+		<li> <a href="scoreboard.php" target="blank">View Scoreboard &nbsp; &nbsp; &nbsp; &nbsp;</a></li>
+	</section>
+	<script type="text/javascript" src="rockpaperjs.js"></script>
+	
+	</body>
+
+</html>
